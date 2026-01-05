@@ -2,9 +2,10 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Promotion Immobilière</title>
+    <title>Promotion Immobilière </title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -28,11 +29,15 @@
 </section>
 
     <div class="container" id="presentation">
-        <h2>Caractéristiques de la première phase de la promotion</h2>
-        <p>La première phase de la promotion Vallée d’O₂ incarne l’excellence immobilière. Ce projet prestigieux se distingue par 20 appartements spacieux, lumineux et de haut standing, offrant 3 chambres, deux salles de bain, un salon et une cuisine, pour des surfaces allant de 90 à 133 m². </p>
-<p>À cela s’ajoutent 6 duplex élégants, répartis sur deux niveaux, avec des superficies de 163 à 184 m².
-Le bâtiment, doté de trois façades, intègre deux ascenseurs de grande capacité et prévoit une place de stationnement pour chaque appartement.</p> 
-<p>Le tout s’inscrit dans un cadre verdoyant agrémenté de jardins, conçu pour répondre aux attentes d’un voisinage privilégié et offrir un confort de vie unique.</p>
+        <h2>Caractéristiques première phase Vallée d’O₂ </h2>
+        <br>
+<p><strong> &#10003; 20 appartements haut standing</strong></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Salon spacieux, trois chambres confortables, deux salles de bain raffinées et une cuisine aménagée..</p>
+<p><strong> &#10003; 6 duplex d’exception (163 à 184 m²)</strong></p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Deux niveaux harmonieux, salon et séjour spacieux, quatre chambres élégantes, quatre salles de bain raffinées et une grande cuisine aménagée.</p>
+        <br>
+<p>Finitions premium et espaces généreux ...</p>
+
     </div>
 
 /* Zona del Galeria de fotos */
@@ -42,48 +47,35 @@ Le bâtiment, doté de trois façades, intègre deux ascenseurs de grande capaci
 <!-- 4 cartes avec images et descriptions -->
             
 <div class="card">
-                <img src="img/photo2.jpg" alt="Penthouse avec vue">
+                <h3>Appartement de 110 m² deux-façade</h3>
+		<img src="img/photo2.jpg" alt="Penthouse avec vue">
                 <div class="card-content">
-                    <h3>Appartement de 110 m² deux-façade</h3>
-                    <p> Appartement d’exception : 3 chambres dont suite parentale avec dressing et salle de bain privative, salon 			spacieux, séjour lumineux, cuisine équipée et terrasse ensoleillée.</p>
-		    <p>Finitions haut de gamme dans un cadre verdoyant pour un art de vivre unique</p>
-
+                    
+                    
                 </div>
 
   </div>
  
   <div class="card">
-                <img src="img/photo3.jpg" alt="Penthouse avec vue">
+                <h3>Appartement de 114 m² mono-façade</h3>
+		<img src="img/photo3.jpg" alt="Penthouse avec vue">
                 <div class="card-content">
-                    <h3>Appartement de 114 m² mono-façade</h3>
-                    <p> Appartement d’exception : 3 chambres dont suite parentale avec dressing et salle de bain privative, salon 			spacieux, séjour lumineux, cuisine équipée et terrasse ensoleillée.</p>
-		    <p>Finitions haut de gamme dans un cadre verdoyant pour un art de vivre unique</p>
-
+                    
                 </div>
    </div>
 
    <div class="card">
+                <h3>Duplex 4 chambres </h3>
                 <img src="img/photo4.jpg" alt="Duplex 4 chambre deux façades, jardin et cours ">
                 <div class="card-content">
-                    <h3>Duplex 4 chambres </h3>
-                    <p>Duplex d’exception alliant espace, lumière et confort absolu. Deux niveaux harmonieux:</p>
-	<p>Au premier niveau, cuisine équipée, salon lumineux avec balcon sur jardin, séjour raffiné et salle de bain moderne</p>
-	<p>À l’étage, profitez d’un espace nuit pensé pour votre confort :4 chambres dont suite parentale avec dressing et salle de     	bain privative, deux salles de bain supplémentaires et Hall
-	</p>
-	<p>Finitions haut de gamme dans un cadre verdoyant pour un art de vivre unique</p>
-
+                    
                 </div>
    </div>
 
 <div class="card">
+                <h3>Duplex 4 chambres (1+3) </h3>
                 <img src="img/photo5.jpg" alt="Duplex 4 chambre deux façades, jardin et cours ">
                 <div class="card-content">
-                    <h3>Duplex 4 chambres (1+3) </h3>
-                    <p>Duplex d’exception alliant espace, lumière et confort absolu. Deux niveaux harmonieux:</p>
-	<p>Au premier niveau, suite parentale avec dressing et salle de bain privative, Cuisine équipée, salon lumineux avec balcon sur jardin, séjour raffiné et salle de bain moderne</p>
-	<p>À l’étage, profitez d’un espace nuit pensé pour votre confort :3 chambres deux salles de bain supplémentaires et Hall</p>
-	<p>Finitions haut de gamme dans un cadre verdoyant pour un art de vivre unique</p>
-
                 </div>
   </div>
 
@@ -158,24 +150,12 @@ Le bâtiment, doté de trois façades, intègre deux ascenseurs de grande capaci
 </div>
 
    
+
 <div class="container" id="contact">
-    <h2>Contacto</h2>
-    <form onsubmit="envoyerFormulaire(event)">
-        <label>Nombre:</label><br>
-        <input type="text" required><br><br>
-
-        <label>Email:</label><br>
-        <input type="email" required><br><br>
-
-        <!-- Nuevo campo para teléfono -->
-        <label>Telephone:</label><br>
-        <input type="tel" pattern="[0-9+ ]{7,15}" placeholder=" 0600 000 000" required><br><br>
-
-        <label>Mensaje:</label><br>
-        <textarea required></textarea><br><br>
-
-        <button type="submit" class="btn">Enviar</button>
-    </form>
+    <h2>Contactez-nous</h2>
+    <p>Pour toute information ou demande, contactez-nous sur:</p>
+    <p><strong>Telephone: +212 5354-68402 </strong></p>
+    <p><strong>E-mail: vallee.o2.meknes@gmail.com</strong></p>
 </div>
 
     <footer>
